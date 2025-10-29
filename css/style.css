@@ -197,19 +197,21 @@ p.lead{
 /* ===== Texto abaixo dos botões ===== */
 p.hero-credibility {
   font-size: 15px;        /* mesmo tamanho do .lead */
-  color: var(--muted);                /* tom suave, igual ao texto principal */
+  color: var(--muted);    /* tom suave, igual ao texto principal */
   margin-top: 1px;
   text-align: center;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px
 }
 
 .hero-cta{
     display:flex;
     gap:12px;
+    justify-content: center;
     align-items:center;
-    margin-top:12px;
+    margin-top:25px;
     flex-wrap:wrap;
 }
 
@@ -1187,4 +1189,5 @@ body {
     width: 100%;
     text-align: center;
   }
+
 }
