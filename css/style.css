@@ -216,11 +216,17 @@ p.hero-credibility {
 }
 
 /* Buttons */
-.btn{
+.btn,
+.btn.secondary {
     display:inline-flex;
     align-items:center;
     gap:10px;
-    padding:12px 18px;
+
+    /* Medidas fixas e uniformes */
+    min-height: 48px;         /* Garante altura consistente */
+    padding: 0 18px;          /* Padding lateral apenas */
+    box-sizing: border-box;   /* Evita diferenças por padding/borda */
+    
     border-radius:12px;
     border:0;
     cursor:pointer;
@@ -1191,3 +1197,4 @@ body {
   }
 
 }
+
